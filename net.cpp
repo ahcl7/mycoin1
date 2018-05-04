@@ -1,8 +1,3 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
 #include "db.h"
 #include "net.h"
 #include "init.h"
@@ -1173,7 +1168,7 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"mycointools.com", "113.190.235.142"},
+    {"mycointools.com", "10.10.10.100"},
     {NULL, NULL}
 };
 
